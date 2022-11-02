@@ -1,0 +1,788 @@
+id: cs.temp.dll
+language: CSharp
+name:
+  Default: cs.temp.dll
+qualifiedName:
+  Default: cs.temp.dll
+type: Assembly
+modifiers: {}
+items:
+- id: MainNamespace
+  commentId: N:MainNamespace
+  language: CSharp
+  name:
+    CSharp: MainNamespace
+    VB: MainNamespace
+  nameWithType:
+    CSharp: MainNamespace
+    VB: MainNamespace
+  qualifiedName:
+    CSharp: MainNamespace
+    VB: MainNamespace
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+  modifiers: {}
+  items:
+  - id: MainNamespace.Main
+    commentId: T:MainNamespace.Main
+    language: CSharp
+    name:
+      CSharp: Main
+      VB: Main
+    nameWithType:
+      CSharp: Main
+      VB: Main
+    qualifiedName:
+      CSharp: MainNamespace.Main
+      VB: MainNamespace.Main
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: MainNamespace
+    source:
+      id: Main
+      path: ''
+      startLine: 10
+    summary: "\nThe main entry point of the system.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: 'public class Main : MonoBehaviour'
+        VB: >-
+          Public Class Main
+
+              Inherits MonoBehaviour
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items: []
+- id: ParticleNamespace
+  commentId: N:ParticleNamespace
+  language: CSharp
+  name:
+    CSharp: ParticleNamespace
+    VB: ParticleNamespace
+  nameWithType:
+    CSharp: ParticleNamespace
+    VB: ParticleNamespace
+  qualifiedName:
+    CSharp: ParticleNamespace
+    VB: ParticleNamespace
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+  modifiers: {}
+  items:
+  - id: ParticleNamespace.Particle
+    commentId: T:ParticleNamespace.Particle
+    language: CSharp
+    name:
+      CSharp: Particle
+      VB: Particle
+    nameWithType:
+      CSharp: Particle
+      VB: Particle
+    qualifiedName:
+      CSharp: ParticleNamespace.Particle
+      VB: ParticleNamespace.Particle
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: ParticleNamespace
+    source:
+      id: Particle
+      path: ''
+      startLine: 34
+    syntax:
+      content:
+        CSharp: public class Particle
+        VB: Public Class Particle
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: ParticleNamespace.Particle.position
+      commentId: F:ParticleNamespace.Particle.position
+      language: CSharp
+      name:
+        CSharp: position
+        VB: position
+      nameWithType:
+        CSharp: Particle.position
+        VB: Particle.position
+      qualifiedName:
+        CSharp: ParticleNamespace.Particle.position
+        VB: ParticleNamespace.Particle.position
+      type: Field
+      assemblies:
+      - cs.temp.dll
+      namespace: ParticleNamespace
+      source:
+        id: position
+        path: ''
+        startLine: 36
+      syntax:
+        content:
+          CSharp: public Vector2Int position
+          VB: Public position As Vector2Int
+        return:
+          type: Vector2Int
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ParticleNamespace.Particle.#ctor(Vector2Int)
+      commentId: M:ParticleNamespace.Particle.#ctor(Vector2Int)
+      language: CSharp
+      name:
+        CSharp: Particle(Vector2Int)
+        VB: Particle(Vector2Int)
+      nameWithType:
+        CSharp: Particle.Particle(Vector2Int)
+        VB: Particle.Particle(Vector2Int)
+      qualifiedName:
+        CSharp: ParticleNamespace.Particle.Particle(Vector2Int)
+        VB: ParticleNamespace.Particle.Particle(Vector2Int)
+      type: Constructor
+      assemblies:
+      - cs.temp.dll
+      namespace: ParticleNamespace
+      source:
+        id: .ctor
+        path: ''
+        startLine: 38
+      syntax:
+        content:
+          CSharp: public Particle(Vector2Int pos)
+          VB: Public Sub New(pos As Vector2Int)
+        parameters:
+        - id: pos
+          type: Vector2Int
+      overload: ParticleNamespace.Particle.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: ParticleNamespace.Particle.Activate
+      commentId: M:ParticleNamespace.Particle.Activate
+      language: CSharp
+      name:
+        CSharp: Activate()
+        VB: Activate()
+      nameWithType:
+        CSharp: Particle.Activate()
+        VB: Particle.Activate()
+      qualifiedName:
+        CSharp: ParticleNamespace.Particle.Activate()
+        VB: ParticleNamespace.Particle.Activate()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: ParticleNamespace
+      source:
+        id: Activate
+        path: ''
+        startLine: 43
+      syntax:
+        content:
+          CSharp: public virtual void Activate()
+          VB: Public Overridable Sub Activate
+      overload: ParticleNamespace.Particle.Activate*
+      modifiers:
+        CSharp:
+        - public
+        - virtual
+        VB:
+        - Public
+        - Overridable
+- id: SimulatorNamespace
+  commentId: N:SimulatorNamespace
+  language: CSharp
+  name:
+    CSharp: SimulatorNamespace
+    VB: SimulatorNamespace
+  nameWithType:
+    CSharp: SimulatorNamespace
+    VB: SimulatorNamespace
+  qualifiedName:
+    CSharp: SimulatorNamespace
+    VB: SimulatorNamespace
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+  modifiers: {}
+  items:
+  - id: SimulatorNamespace.Simulator
+    commentId: T:SimulatorNamespace.Simulator
+    language: CSharp
+    name:
+      CSharp: Simulator
+      VB: Simulator
+    nameWithType:
+      CSharp: Simulator
+      VB: Simulator
+    qualifiedName:
+      CSharp: SimulatorNamespace.Simulator
+      VB: SimulatorNamespace.Simulator
+    type: Class
+    assemblies:
+    - cs.temp.dll
+    namespace: SimulatorNamespace
+    source:
+      id: Simulator
+      path: ''
+      startLine: 60
+    summary: "\nThe class handling all simulation data and logic.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public class Simulator
+        VB: Public Class Simulator
+    inheritance:
+    - System.Object
+    inheritedMembers:
+    - System.Object.ToString
+    - System.Object.Equals(System.Object)
+    - System.Object.Equals(System.Object,System.Object)
+    - System.Object.ReferenceEquals(System.Object,System.Object)
+    - System.Object.GetHashCode
+    - System.Object.GetType
+    - System.Object.MemberwiseClone
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: SimulatorNamespace.Simulator.#ctor
+      commentId: M:SimulatorNamespace.Simulator.#ctor
+      language: CSharp
+      name:
+        CSharp: Simulator()
+        VB: Simulator()
+      nameWithType:
+        CSharp: Simulator.Simulator()
+        VB: Simulator.Simulator()
+      qualifiedName:
+        CSharp: SimulatorNamespace.Simulator.Simulator()
+        VB: SimulatorNamespace.Simulator.Simulator()
+      type: Constructor
+      assemblies:
+      - cs.temp.dll
+      namespace: SimulatorNamespace
+      source:
+        id: .ctor
+        path: ''
+        startLine: 64
+      syntax:
+        content:
+          CSharp: public Simulator()
+          VB: Public Sub New
+      overload: SimulatorNamespace.Simulator.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: SimulatorNamespace.Simulator.SimulateRound
+      commentId: M:SimulatorNamespace.Simulator.SimulateRound
+      language: CSharp
+      name:
+        CSharp: SimulateRound()
+        VB: SimulateRound()
+      nameWithType:
+        CSharp: Simulator.SimulateRound()
+        VB: Simulator.SimulateRound()
+      qualifiedName:
+        CSharp: SimulatorNamespace.Simulator.SimulateRound()
+        VB: SimulatorNamespace.Simulator.SimulateRound()
+      type: Method
+      assemblies:
+      - cs.temp.dll
+      namespace: SimulatorNamespace
+      source:
+        id: SimulateRound
+        path: ''
+        startLine: 76
+      summary: "\nSimulates a complete round by activating each particle.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void SimulateRound()
+          VB: Public Sub SimulateRound
+      overload: SimulatorNamespace.Simulator.SimulateRound*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  MainNamespace.Main:
+    name:
+      CSharp:
+      - id: MainNamespace.Main
+        name: Main
+        nameWithType: Main
+        qualifiedName: MainNamespace.Main
+      VB:
+      - id: MainNamespace.Main
+        name: Main
+        nameWithType: Main
+        qualifiedName: MainNamespace.Main
+    isDefinition: true
+    commentId: T:MainNamespace.Main
+  MainNamespace:
+    name:
+      CSharp:
+      - name: MainNamespace
+        nameWithType: MainNamespace
+        qualifiedName: MainNamespace
+      VB:
+      - name: MainNamespace
+        nameWithType: MainNamespace
+        qualifiedName: MainNamespace
+    isDefinition: true
+    commentId: N:MainNamespace
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Object.ToString:
+    name:
+      CSharp:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ToString
+        name: ToString
+        nameWithType: Object.ToString
+        qualifiedName: System.Object.ToString
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ToString
+  System.Object.Equals(System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object)
+  System.Object.Equals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.Equals(System.Object,System.Object)
+        name: Equals
+        nameWithType: Object.Equals
+        qualifiedName: System.Object.Equals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.Equals(System.Object,System.Object)
+  System.Object.ReferenceEquals(System.Object,System.Object):
+    name:
+      CSharp:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.ReferenceEquals(System.Object,System.Object)
+        name: ReferenceEquals
+        nameWithType: Object.ReferenceEquals
+        qualifiedName: System.Object.ReferenceEquals
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: ', '
+        nameWithType: ', '
+        qualifiedName: ', '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  System.Object.GetHashCode:
+    name:
+      CSharp:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetHashCode
+        name: GetHashCode
+        nameWithType: Object.GetHashCode
+        qualifiedName: System.Object.GetHashCode
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetHashCode
+  System.Object.GetType:
+    name:
+      CSharp:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.GetType
+        name: GetType
+        nameWithType: Object.GetType
+        qualifiedName: System.Object.GetType
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.GetType
+  System.Object.MemberwiseClone:
+    name:
+      CSharp:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: System.Object.MemberwiseClone
+        name: MemberwiseClone
+        nameWithType: Object.MemberwiseClone
+        qualifiedName: System.Object.MemberwiseClone
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: System.Object
+    commentId: M:System.Object.MemberwiseClone
+  Vector2Int:
+    name:
+      CSharp:
+      - id: Vector2Int
+        name: Vector2Int
+        nameWithType: Vector2Int
+        qualifiedName: Vector2Int
+        isExternal: true
+      VB:
+      - id: Vector2Int
+        name: Vector2Int
+        nameWithType: Vector2Int
+        qualifiedName: Vector2Int
+        isExternal: true
+    isDefinition: true
+  ParticleNamespace.Particle.#ctor*:
+    name:
+      CSharp:
+      - id: ParticleNamespace.Particle.#ctor*
+        name: Particle
+        nameWithType: Particle.Particle
+        qualifiedName: ParticleNamespace.Particle.Particle
+      VB:
+      - id: ParticleNamespace.Particle.#ctor*
+        name: Particle
+        nameWithType: Particle.Particle
+        qualifiedName: ParticleNamespace.Particle.Particle
+    isDefinition: true
+    commentId: Overload:ParticleNamespace.Particle.#ctor
+  ParticleNamespace.Particle.Activate*:
+    name:
+      CSharp:
+      - id: ParticleNamespace.Particle.Activate*
+        name: Activate
+        nameWithType: Particle.Activate
+        qualifiedName: ParticleNamespace.Particle.Activate
+      VB:
+      - id: ParticleNamespace.Particle.Activate*
+        name: Activate
+        nameWithType: Particle.Activate
+        qualifiedName: ParticleNamespace.Particle.Activate
+    isDefinition: true
+    commentId: Overload:ParticleNamespace.Particle.Activate
+  ParticleNamespace.Particle:
+    name:
+      CSharp:
+      - id: ParticleNamespace.Particle
+        name: Particle
+        nameWithType: Particle
+        qualifiedName: ParticleNamespace.Particle
+      VB:
+      - id: ParticleNamespace.Particle
+        name: Particle
+        nameWithType: Particle
+        qualifiedName: ParticleNamespace.Particle
+    isDefinition: true
+    commentId: T:ParticleNamespace.Particle
+  ParticleNamespace:
+    name:
+      CSharp:
+      - name: ParticleNamespace
+        nameWithType: ParticleNamespace
+        qualifiedName: ParticleNamespace
+      VB:
+      - name: ParticleNamespace
+        nameWithType: ParticleNamespace
+        qualifiedName: ParticleNamespace
+    isDefinition: true
+    commentId: N:ParticleNamespace
+  SimulatorNamespace.Simulator.#ctor*:
+    name:
+      CSharp:
+      - id: SimulatorNamespace.Simulator.#ctor*
+        name: Simulator
+        nameWithType: Simulator.Simulator
+        qualifiedName: SimulatorNamespace.Simulator.Simulator
+      VB:
+      - id: SimulatorNamespace.Simulator.#ctor*
+        name: Simulator
+        nameWithType: Simulator.Simulator
+        qualifiedName: SimulatorNamespace.Simulator.Simulator
+    isDefinition: true
+    commentId: Overload:SimulatorNamespace.Simulator.#ctor
+  SimulatorNamespace.Simulator.SimulateRound*:
+    name:
+      CSharp:
+      - id: SimulatorNamespace.Simulator.SimulateRound*
+        name: SimulateRound
+        nameWithType: Simulator.SimulateRound
+        qualifiedName: SimulatorNamespace.Simulator.SimulateRound
+      VB:
+      - id: SimulatorNamespace.Simulator.SimulateRound*
+        name: SimulateRound
+        nameWithType: Simulator.SimulateRound
+        qualifiedName: SimulatorNamespace.Simulator.SimulateRound
+    isDefinition: true
+    commentId: Overload:SimulatorNamespace.Simulator.SimulateRound
+  SimulatorNamespace.Simulator:
+    name:
+      CSharp:
+      - id: SimulatorNamespace.Simulator
+        name: Simulator
+        nameWithType: Simulator
+        qualifiedName: SimulatorNamespace.Simulator
+      VB:
+      - id: SimulatorNamespace.Simulator
+        name: Simulator
+        nameWithType: Simulator
+        qualifiedName: SimulatorNamespace.Simulator
+    isDefinition: true
+    commentId: T:SimulatorNamespace.Simulator
+  SimulatorNamespace:
+    name:
+      CSharp:
+      - name: SimulatorNamespace
+        nameWithType: SimulatorNamespace
+        qualifiedName: SimulatorNamespace
+      VB:
+      - name: SimulatorNamespace
+        nameWithType: SimulatorNamespace
+        qualifiedName: SimulatorNamespace
+    isDefinition: true
+    commentId: N:SimulatorNamespace
