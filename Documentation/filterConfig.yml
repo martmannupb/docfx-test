@@ -1,7 +1,7 @@
 apiRules:
-  - exclude:
+- exclude:
     uidRegex: ^System\.Object.*
     type: Type
-  - exclude:
+- exclude:
     uidRegex: ^UnityEngine\.MonoBehaviour
     type: Type

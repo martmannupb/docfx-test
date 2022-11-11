@@ -11,9 +11,9 @@
             ],
             "dest": "api",
             "disableGitFeatures": false,
-            "disableDefaultFilter": false
-            //"filter": "filterConfig.yml"    // Does not seem to work correctly for hiding inherited members, using customized template instead
-            //"globalNamespaceId": "Global"
+            //"disableDefaultFilter": false,
+            "filter": "filterConfig.yml",
+            "globalNamespaceId": "Global"
         }
     ],
     "build": {
@@ -59,10 +59,10 @@
         },
         "globalMetadataFiles": [],
         "fileMetadataFiles": [],
-        "template": [
-            "statictoc",
-            "templates/custom"
-        ],
+        //"template": [
+            //"statictoc",
+            //"templates/custom"
+        //],
         "postProcessors": [ "ExtractSearchIndex" ],
         "markdownEngineName": "markdig",
         "noLangKeyword": false,
