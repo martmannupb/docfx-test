@@ -12,7 +12,7 @@
             "dest": "api",
             "disableGitFeatures": false,
             //"disableDefaultFilter": false,
-            "filter": "filterConfig.yml",
+            //"filter": "filterConfig.yml",
             "globalNamespaceId": "Global"
         }
     ],
