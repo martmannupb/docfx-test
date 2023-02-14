@@ -13,7 +13,8 @@
             "disableGitFeatures": false,
             //"disableDefaultFilter": false,
             //"filter": "filterConfig.yml",
-            "globalNamespaceId": "Global"
+            "globalNamespaceId": "Global",
+            "includePrivateMembers": true
         }
     ],
     "build": {
