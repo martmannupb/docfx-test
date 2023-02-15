@@ -37,6 +37,11 @@ jobs:
         uses: crazy-max/ghaction-chocolatey@v2.1.0
         with:
           args: install docfx
+      
+      - name: Update DocFX
+        uses: crazy-max/ghaction-chocolatey@v2.1.0
+        with:
+          args: upgrade docfx
 
       # Builds the documentation using DocFX, outputs Documentation/_site directory
       - name: DocFX Build
