@@ -40,7 +40,7 @@ jobs:
 
       - name: Setup DocFX
         run: |
-          curl -L https://github.com/dotnet/docfx/releases/latest/download/docfx.zip -o docfx.zip
+          curl -L https://github.com/dotnet/docfx/releases/download/v2.62.0/docfx-win-x64-v2.62.0.zip -o docfx.zip
           unzip -d .docfx docfx.zip
 
       # Builds the documentation using DocFX, outputs Documentation/_site directory
