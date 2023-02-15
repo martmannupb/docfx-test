@@ -33,20 +33,21 @@ jobs:
         with:
           dotnet-version: 6.0.x
 
+#      - name: Setup DocFX
+#        uses: crazy-max/ghaction-chocolatey@v2.1.0
+#        with:
+#          args: install docfx
+
       - name: Setup DocFX
-        uses: crazy-max/ghaction-chocolatey@v2.1.0
-        with:
-          args: install docfx
-      
-      - name: Update DocFX
-        uses: crazy-max/ghaction-chocolatey@v2.1.0
-        with:
-          args: upgrade docfx
+        run: |
+          curl -L https://github.com/dotnet/docfx/releases/latest/download/docfx.zip -o docfx.zip
+          unzip -d .docfx docfx.zip
 
       # Builds the documentation using DocFX, outputs Documentation/_site directory
       - name: DocFX Build
         working-directory: Documentation
-        run: docfx .\docfx.json
+#        run: docfx .\docfx.json
+        run: ..\.docfx\docfx.exe .\docfx.json
         continue-on-error: false
 
       - name: Upload artifact
