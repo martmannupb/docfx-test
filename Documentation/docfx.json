@@ -3,9 +3,10 @@
         {
             "src": [
                 {
-                    "src": "../",
+                    "src": "../Assets",
                     "files": [
-                        "**.csproj"
+                        //"**.csproj"
+                        "**.cs"
                     ]
                 }
             ],
@@ -14,6 +15,7 @@
             //"disableDefaultFilter": false,
             //"filter": "filterConfig.yml",
             "globalNamespaceId": "Global",
+            "allowCompilationErrors": true,
             "includePrivateMembers": true
         }
     ],
@@ -60,11 +62,11 @@
         },
         "globalMetadataFiles": [],
         "fileMetadataFiles": [],
-        //"template": [
-        //"statictoc",
+        "template": [
+            "statictoc",
         //"templates/custom"
-        //],
-        "template": "default",
+        ],
+//        "template": "default",
         "postProcessors": [ "ExtractSearchIndex" ],
         "markdownEngineName": "markdig",
         "noLangKeyword": false,
