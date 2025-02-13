@@ -62,11 +62,11 @@
         },
         "globalMetadataFiles": [],
         "fileMetadataFiles": [],
-        "template": [
-            "statictoc",
-        //"templates/custom"
-        ],
-//        "template": "default",
+//        "template": [
+//            "statictoc",
+//        //"templates/custom"
+//        ],
+        "template": "default",
         "postProcessors": [ "ExtractSearchIndex" ],
         "markdownEngineName": "markdig",
         "noLangKeyword": false,
