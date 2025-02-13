@@ -1,6 +1,6 @@
 # Builds the DocFX documentation and publishes it via GitHub Pages
 # Based on sample workflow for Jekyll Pages
-name: Build and Publish Documentation
+name: Documentation
 
 on:
   # Runs on pushes targeting the default branch
