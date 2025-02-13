@@ -15,7 +15,7 @@
             //"disableDefaultFilter": false,
             //"filter": "filterConfig.yml",
             "globalNamespaceId": "Global",
-            //"allowCompilationErrors": true,
+            "allowCompilationErrors": true,
             "includePrivateMembers": true
         }
     ],
